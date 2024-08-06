@@ -23,4 +23,4 @@ My name is Sergei Calabonga. I'm from Calabonga SOFT. You can contact me:
 
 # Screenshot
 
-![main window](whatnot/mainWindow.png)
+<img width="439" alt="mainWindow" src="https://github.com/user-attachments/assets/87288e64-5dfc-4342-b0f7-e67397b1466b">
