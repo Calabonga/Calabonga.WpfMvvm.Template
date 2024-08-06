@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="{Binding Title}" Height="450" Width="600">
+        Title="{Binding Title}" Height="450" Width="600" Icon="/logo.png">
     <Border Margin="10" Padding="10" 
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center">
