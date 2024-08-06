@@ -42,17 +42,17 @@
 	<ItemGroup>
 		<Content Include="content\**\*" Exclude="content\**\bin\**;content\**\obj\**" />
 		<Compile Remove="**\*" />
+		<Compile Remove="content\.vs\**" />
+		<Compile Remove="content\_ReSharper.Caches\**" />
+		<Content Remove="content\.vs\**" />
+		<Content Remove="content\_ReSharper.Caches\**" />
+		<EmbeddedResource Remove="content\.vs\**" />
+		<EmbeddedResource Remove="content\_ReSharper.Caches\**" />
+		<None Remove="content\.vs\**" />
+		<None Remove="content\_ReSharper.Caches\**" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="README.md" Pack="true" PackagePath="" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Include="..\..\README.md">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
 		<None Include="..\logo.png">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
