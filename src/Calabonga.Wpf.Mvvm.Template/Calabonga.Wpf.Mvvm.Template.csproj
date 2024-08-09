@@ -13,7 +13,7 @@
 		<PackageTags>calabonga;mvvm;wpf;communitytoolkit;template;basic</PackageTags>
 		<PackageProjectUrl>https://github.com/Calabonga/Calabonga.WpfMvvm.Template</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageReleaseNotes>Solution removed from template, only .csproj does matter.</PackageReleaseNotes>
+		<PackageReleaseNotes>Redundant files were removed from template, only .csproj does matter.</PackageReleaseNotes>
 
 		<!-- Keep package type as 'Template' to show the package as a template package on nuget.org and make your template available in dotnet new search.-->
 		<PackageType>Template</PackageType>
