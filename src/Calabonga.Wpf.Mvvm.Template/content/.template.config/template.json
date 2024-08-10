@@ -1,46 +1,48 @@
 {
-    "$schema": "http://json.schemastore.org/template",
-    "author": "Calabonga SOFT",
-    "classifications": [
-        "Common",
-        "WPF",
-        "Windows"
-    ],
-    "name": "WPF Application with MVVM",
-    "description": "This template for WPF application with MVVM components you can use for new application. In template already everything prepared for your developing start.",
-    "identity": "Calabonga.Wpf.Mvvm.Template",
-    "shortName": "wpfmvvm",
-    "tags": {
-        "language": "C#",
-        "type": "project"
-    },
-    "sourceName": "Calabonga.Wpf.Mvvm",
-    "preferNameDirectory": true,
-    "symbols": {
-        "Framework": {
-            "type": "parameter",
-            "description": "The target framework for the project.",
-            "datatype": "choice",
-            "choices": [
-                {
-                    "choice": "net8.0"
-                }
-            ],
-            "defaultValue": "net8.0"
-        }
-    },
-    "sources": [
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Calabonga SOFT",
+  "classifications": [
+    "Common",
+    "Desktop",
+    "Windows"
+  ],
+  "description": "This template for WPF application with MVVM components you can use for new application. In template already everything prepared for your developing start quickly.",
+  "groupIdentity": "Calabonga",
+  "identity": "Calabonga.Wpf.Mvvm.Template",
+  "name": "WPF Application with MVVM",
+  "preferNameDirectory": true,
+  "shortName": "wpfmvvm",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "defaultName": "Calabonga.Wpf.Mvvm1",
+  "sourceName": "Calabonga.Wpf.Mvvm",
+  "sources": [
+    {
+      "modifiers": [
         {
-            "modifiers": [
-                {
-                    "exclude": [
-                        ".vs/**",
-                        ".idea/**",
-                        "_ReSharper.Caches/**",
-                        ".template_config/**"
-                    ]
-                }
-            ]
+          "exclude": [
+            ".vs/**",
+            ".idea/**",
+            "_ReSharper.Caches/**",
+            ".template_config/**"
+          ]
         }
-    ]
+      ]
+    }
+  ],
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net8.0"
+        }
+      ],
+      "defaultValue": "net8.0"
+    }
+  }
 }

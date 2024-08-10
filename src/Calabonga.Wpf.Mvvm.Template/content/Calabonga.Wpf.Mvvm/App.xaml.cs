@@ -1,7 +1,9 @@
-﻿using Calabonga.Wpf.Mvvm.Core;
+﻿using System.Windows;
+using Calabonga.Wpf.Mvvm.Core;
+using Calabonga.Wpf.Mvvm.ViewModels;
+using Calabonga.Wpf.Mvvm.Views;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
-using System.Windows;
 
 namespace Calabonga.Wpf.Mvvm;
 

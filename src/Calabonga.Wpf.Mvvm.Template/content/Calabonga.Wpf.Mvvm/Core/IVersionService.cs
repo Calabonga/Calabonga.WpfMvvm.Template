@@ -13,7 +13,7 @@ public interface IVersionService
 /// </summary>
 public class VersionService : IVersionService
 {
-    public VersionService() => Version = "1.0.0";
+    public VersionService() => Version = "1.0.5";
 
     public string Version { get; }
 }
