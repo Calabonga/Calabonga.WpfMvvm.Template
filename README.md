@@ -1,5 +1,7 @@
 ﻿# WPF + MVVM
 
+[Инструкция на русском](https://www.calabonga.net/blog/post/calabonga-wpf-mvvm-template)
+
 This template for WPF application with MVVM components you can use for new application. In template already everything prepared for your developing start.
 
 **Template contains those components:**
