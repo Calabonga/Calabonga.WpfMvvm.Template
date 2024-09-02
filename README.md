@@ -52,6 +52,8 @@ After template install you can find it in CLI, Visual Studio, Rider.
 
 <img width="681" alt="rider" src="https://github.com/user-attachments/assets/3755a512-ac36-4517-85fc-d4bd5a4a0c8a">
 
+## Screenshot
+
 When you create a solution from this template, you will see something like this.
 
 <img width="439" alt="mainWindow" src="https://github.com/user-attachments/assets/87288e64-5dfc-4342-b0f7-e67397b1466b">
