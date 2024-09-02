@@ -12,7 +12,6 @@ namespace Calabonga.Wpf.Mvvm;
 /// </summary>
 public partial class App : Application
 {
-
     public App()
     {
         Log.Logger = new LoggerConfiguration()
@@ -26,12 +25,12 @@ public partial class App : Application
     /// <summary>
     /// Gets the current <see cref="App"/> instance in use
     /// </summary>
-    public static new App Current => (App)Application.Current;
+    public new static App Current => (App)Application.Current;
 
     /// <summary>
     /// Gets the <see cref="IServiceProvider"/> instance to resolve application services.
     /// </summary>
-    public IServiceProvider Services { get; private set; }
+    private IServiceProvider Services { get; set; }
 
     /// <summary>Raises the <see cref="E:System.Windows.Application.Startup" /> event.</summary>
     /// <param name="e">A <see cref="T:System.Windows.StartupEventArgs" /> that contains the event data.</param>

@@ -15,7 +15,7 @@ Template contains those components:
 # Author
 --------------------
 
-My name is Sergei Calabonga. I'm from Calabonga SOFT. You can contact me:
-* Blog [calabonga.net](https://www.calabonga.net)
-* Channel on [boosty.to](https://boosty.to/calabonga)
-* Telegram [channel](https://t.me/calabongaNet)
+My name is Sergei Calabonga. I'm from Calabonga SOFT. You can contact me on:
+* My Blog [calabonga.net](https://www.calabonga.net)
+* My Channel on [boosty.to](https://boosty.to/calabonga)
+* CalabongaSoft Telegram [channel](https://t.me/calabongaNet)
