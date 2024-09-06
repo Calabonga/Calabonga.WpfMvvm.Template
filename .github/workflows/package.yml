@@ -27,5 +27,8 @@ jobs:
       - name: Build the NuGet package
         run: dotnet pack 'src/Calabonga.Wpf.Mvvm.Template.sln' --configuration Release --output ${{env.DOTNET_ROOT}}\Package
 
-      - name: Publish NuGet Package
+      - name: Publish NuGet Package (nuget.org)
         run: dotnet nuget push ${{env.DOTNET_ROOT}}\Package\*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+
+      - name: Publish NuGet Package (github.com)
+        run: dotnet nuget add source --username calabonga --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/calabonga/index.json"
