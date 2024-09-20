@@ -6,11 +6,9 @@
     "Desktop",
     "Windows"
   ],
-  "description": "This template for WPF application with MVVM components you can use for new application. In template already everything prepared for your developing start quickly.",
-  "groupIdentity": "Calabonga",
-  "identity": "Calabonga.Wpf.Mvvm.Template",
   "name": "WPF Application with MVVM",
-  "preferNameDirectory": true,
+  "description": "This template for WPF application with MVVM components you can use for new application. In template already everything prepared for your developing start quickly.",
+  "identity": "Calabonga.Wpf.Mvvm.Template",
   "shortName": "wpfmvvm",
   "tags": {
     "language": "C#",
@@ -18,6 +16,20 @@
   },
   "defaultName": "Calabonga.Wpf.Mvvm1",
   "sourceName": "Calabonga.Wpf.Mvvm",
+  "preferNameDirectory": true,
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net8.0"
+        }
+      ],
+      "defaultValue": "net8.0"
+    }
+  },
   "sources": [
     {
       "modifiers": [
@@ -31,18 +43,5 @@
         }
       ]
     }
-  ],
-  "symbols": {
-    "Framework": {
-      "type": "parameter",
-      "description": "The target framework for the project.",
-      "datatype": "choice",
-      "choices": [
-        {
-          "choice": "net8.0"
-        }
-      ],
-      "defaultValue": "net8.0"
-    }
-  }
+  ]
 }

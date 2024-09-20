@@ -1,7 +1,8 @@
 ﻿namespace Calabonga.Wpf.Mvvm.Core;
 
 /// <summary>
-/// Demo interface
+/// This interface is for demo purposes only.
+/// You can delete it in any time you want.
 /// </summary>
 public interface IVersionService
 {
@@ -9,11 +10,11 @@ public interface IVersionService
 }
 
 /// <summary>
-/// Demo interface implementation <see cref="IVersionService"/>
+/// This interface implementation is for demo purposes only. Please see <see cref="IVersionService"/>.
 /// </summary>
 public class VersionService : IVersionService
 {
-    public VersionService() => Version = "1.0.6";
+    public VersionService() => Version = "1.0.7";
 
     public string Version { get; }
 }
