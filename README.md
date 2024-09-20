@@ -54,8 +54,17 @@ After template install you can find it in CLI, Visual Studio, Rider.
 
 ## Screenshot
 
+### MainWindow with MVVM
+
 When you create a solution from this template, you will see something like this.
 
 <img width="439" alt="mainWindow" src="https://github.com/user-attachments/assets/87288e64-5dfc-4342-b0f7-e67397b1466b">
 
-MainWindow with MVVM
+### Solution Explorer Visual Studio
+
+After you create a project from template you'll see somethig like that.
+
+<img width="666" alt="solution-explorer-after-created" src="https://github.com/user-attachments/assets/e64921c8-814e-4e92-b8c4-c28e6718f31c">
+
+
+
