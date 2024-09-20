@@ -33,7 +33,7 @@ dotnet new install Calabonga.Wpf.Mvvm.Template
 
 You should get somethins like this:
 
-<img width="743" alt="powershell" src="https://github.com/user-attachments/assets/30780a4d-0613-4adf-bcab-98392c01ccf9">
+<img width="638" alt="powershell" src="https://github.com/user-attachments/assets/30780a4d-0613-4adf-bcab-98392c01ccf9">
 
 
 # Screenshots
@@ -46,16 +46,16 @@ After template install you can find it in CLI, Visual Studio, Rider.
 
 ## Visual Studio
 
-<img width="723" alt="VisualStudio" src="https://github.com/user-attachments/assets/b07c33cb-de05-49d7-866b-dff668bac89a">
+<img width="638" alt="VisualStudio" src="https://github.com/user-attachments/assets/b07c33cb-de05-49d7-866b-dff668bac89a">
 
 ## JetBrains Rider
 
-<img width="681" alt="rider" src="https://github.com/user-attachments/assets/3755a512-ac36-4517-85fc-d4bd5a4a0c8a">
+<img width="638" alt="rider" src="https://github.com/user-attachments/assets/3755a512-ac36-4517-85fc-d4bd5a4a0c8a">
 
 ## Screenshot
 
 When you create a solution from this template, you will see something like this.
 
-<img width="439" alt="mainWindow" src="https://github.com/user-attachments/assets/87288e64-5dfc-4342-b0f7-e67397b1466b">
+<img width="638" alt="mainWindow" src="https://github.com/user-attachments/assets/87288e64-5dfc-4342-b0f7-e67397b1466b">
 
 MainWindow with MVVM
