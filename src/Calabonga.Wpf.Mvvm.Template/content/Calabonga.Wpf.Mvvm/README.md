@@ -11,6 +11,11 @@ Template contains those components:
 * Serilog.Extensions.Hosting - Serilog logger integration with your application host.
 * Serilog.Sinks.File - Serilog logger to log-file very helpful when you using WPF platform, because there is not any Console to write logs
 
+# Platform
+
+NET9.0 (Default)
+NET8.0 (Compatible)
+
 
 # Author
 --------------------

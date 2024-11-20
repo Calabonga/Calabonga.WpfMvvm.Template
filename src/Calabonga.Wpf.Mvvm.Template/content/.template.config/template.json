@@ -24,10 +24,10 @@
       "datatype": "choice",
       "choices": [
         {
-          "choice": "net8.0"
+          "choice": "net9.0"
         }
       ],
-      "defaultValue": "net8.0"
+      "defaultValue": "net9.0"
     }
   },
   "sources": [
