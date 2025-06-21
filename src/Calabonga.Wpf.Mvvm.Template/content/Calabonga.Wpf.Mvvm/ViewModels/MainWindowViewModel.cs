@@ -8,5 +8,7 @@ namespace Calabonga.Wpf.Mvvm.ViewModels;
 public partial class MainWindowViewModel : ViewModelBase
 {
     public MainWindowViewModel(IVersionService versionService)
-        => Title = $"WPF with MVVM (v{versionService.Version})";
+    {
+        Title = $"WPF with MVVM (v{versionService.Version})";
+    }
 }

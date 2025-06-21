@@ -4,8 +4,8 @@
 		<!-- The package metadata. Fill in the properties marked as TODO below -->
 		<!-- Follow the instructions on https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices -->
 		<PackageId>Calabonga.Wpf.Mvvm.Template</PackageId>
-		<PackageVersion>2.0.0</PackageVersion>
-		<Description>This template for WPF application with MVVM components you can use for new application. In template already everything prepared for your developing start.</Description>
+		<PackageVersion>2.0.1</PackageVersion>
+		<Description>This template for WPF application with CommunityToolkit.MVVM framework and components you can use for new application. In template already everything prepared for your developing start.</Description>
 		<Title>Calabonga.Wpf.Mvvm.Template</Title>
 		<Authors>Calabonga</Authors>
 		<Copyright>Calabonga SOFT © 2001-$([System.DateTime]::Now.ToString(yyyy))</Copyright>
@@ -13,7 +13,7 @@
 		<PackageTags>calabonga;mvvm;wpf;communitytoolkit;template;basic</PackageTags>
 		<PackageProjectUrl>https://github.com/Calabonga/Calabonga.WpfMvvm.Template</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageReleaseNotes>NET 9.0 migration</PackageReleaseNotes>
+		<PackageReleaseNotes>Nuget dependencies updated</PackageReleaseNotes>
 
 		<!-- Keep package type as 'Template' to show the package as a template package on nuget.org and make your template available in dotnet new search.-->
 		<PackageType>Template</PackageType>

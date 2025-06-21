@@ -14,7 +14,10 @@ public interface IVersionService
 /// </summary>
 public class VersionService : IVersionService
 {
-    public VersionService() => Version = "1.0.7";
+    public VersionService()
+    {
+        Version = "1.0.8";
+    }
 
     public string Version { get; }
 }
