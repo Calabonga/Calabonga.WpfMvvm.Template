@@ -4,7 +4,8 @@
     "classifications": [
         "Common",
         "Desktop",
-        "Windows"
+        "Windows",
+        "Templating"
     ],
     "name": "WPF Application with CommunityToolkit.MVVM",
     "description": "This template for WPF application with CommunityToolkit.MVVM framework and components you can use for new application. In template already everything prepared for your developing start quickly.",
@@ -24,10 +25,10 @@
             "datatype": "choice",
             "choices": [
                 {
-                    "choice": "net9.0"
+                    "choice": "net10.0"
                 }
             ],
-            "defaultValue": "net9.0"
+            "defaultValue": "net10.0"
         }
     },
     "sources": [

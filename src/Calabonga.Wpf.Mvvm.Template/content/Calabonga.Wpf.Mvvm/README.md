@@ -13,8 +13,8 @@ Template contains those components:
 
 # Platform
 
-NET9.0 (Default)
-NET8.0 (Compatible)
+NET10.0 (Default)
+NET9.0 (Compatible)
 
 
 # Author
