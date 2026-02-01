@@ -16,7 +16,7 @@ public class VersionService : IVersionService
 {
     public VersionService()
     {
-        Version = "1.0.8";
+        Version = "3.0.0";
     }
 
     public string Version { get; }
