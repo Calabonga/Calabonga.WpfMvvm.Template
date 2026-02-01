@@ -5,12 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource BackgroundColor}"
+        Foreground="{DynamicResource ForegroundColor}"
         Title="{Binding Title}" Height="450" Width="600" Icon="/logo.png">
     <Border Margin="10" Padding="10" 
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center">
         <StackPanel>
             <TextBlock Text="WPF + MVVM" FontSize="22" TextAlignment="Center" Margin="0,0,0,14"/>
+            <ToggleButton Height="30" Width="60" IsChecked="{Binding Path=IsDarkTheme}" Margin="0 0 0 10">
+                <ToggleButton.Template>
+                    <ControlTemplate>
+                        <Border x:Name="SwitchBorder" CornerRadius="15" Background="{DynamicResource BackgroundColor}">
+                            <Border x:Name="SwitchShape" Width="22" Height="22" Margin="4 0 4 0"
+                                    HorizontalAlignment="Left" CornerRadius="15"  Background="{DynamicResource BackgroundColor}">
+                                <Border.Effect>
+                                    <DropShadowEffect Opacity="0.2"></DropShadowEffect>
+                                </Border.Effect>
+                            </Border>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="ToggleButton.IsChecked" Value="True">
+                                <Setter TargetName="SwitchShape" Property="HorizontalAlignment" Value="Right"/>
+                                <Setter TargetName="SwitchBorder" Property="Background" Value="#4cf964"/>
+                            </Trigger>
+                            <Trigger Property="ToggleButton.IsChecked" Value="False">
+                                <Setter TargetName="SwitchBorder" Property="Background" Value="LightGray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </ToggleButton.Template>
+            </ToggleButton>
             <TextBlock TextWrapping="Wrap" Text="This template for WPF application with MVVM components you can use for new application. In template already everything prepared for your developing start." FontSize="14" Margin="0,0,0,10"/>
             <TextBlock Text="Template contains those components:"/>
             <TextBlock Text="* CommunityToolkit.Mvvm - Framework with MVVM instruments."/>

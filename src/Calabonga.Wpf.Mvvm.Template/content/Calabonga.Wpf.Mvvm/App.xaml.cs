@@ -1,9 +1,9 @@
-﻿using System.Windows;
-using Calabonga.Wpf.Mvvm.Core;
+﻿using Calabonga.Wpf.Mvvm.Core;
 using Calabonga.Wpf.Mvvm.ViewModels;
 using Calabonga.Wpf.Mvvm.Views;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
+using System.Windows;
 
 namespace Calabonga.Wpf.Mvvm;
 
@@ -12,6 +12,9 @@ namespace Calabonga.Wpf.Mvvm;
 /// </summary>
 public partial class App : Application
 {
+    internal const string DarkThemeName = "ThemeDark.xaml";
+    internal const string LightThemeName = "ThemeLight.xaml";
+
     public App()
     {
         Log.Logger = new LoggerConfiguration()
